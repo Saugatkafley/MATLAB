@@ -1,6 +1,6 @@
 %lab7b
 k = -10:0.1:20;
-y = -0.92 * sin(0.1 *pi *k -3/4*pi);
+y = -0.92 * sin(0.1 *pi .*k -3/4*pi);
 subplot(2,1,1)
 stem(k,y);
 axis
